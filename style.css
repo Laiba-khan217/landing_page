@@ -1,0 +1,183 @@
+
+/*body*/
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-image: url("heroimg.jpeg");
+    background-size: cover;
+    width: 100vw;
+    height: 50vh;
+}
+
+/*navbar logo*/
+
+img {
+    height: 100px;
+    width: 100px ;
+    mix-blend-mode: multiply; 
+}
+
+h1 {
+    height: 200px;
+    width: 800px;
+    margin-top: -100px;
+    padding-bottom: 60px;
+}
+
+ h1 :hover {
+    color: rgb(237, 232, 153);
+ }
+
+ a:hover {
+    color:#485c5c;
+ }
+
+/* navbar*/
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    margin-right: 20px;
+    padding: 5px;  
+}
+
+.nav {
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+#diff {
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 10%;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+/*main*/
+
+.hero {
+   
+    font-size: 20px;
+    color: #fbf2c0;
+  padding-left: 120px;
+  padding-top: 40px;
+}
+
+.container {
+    background-color:#485c5c;
+    height: 250px;
+    padding-top: 70px;
+    padding-bottom:80px ;
+    margin-top: 90px;  
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#box1 {
+    color:black;
+    text-align: center;
+    font-size: 10px;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    background-color: aliceblue;
+    background-image: url("bedroom.jpeg");
+    background-size: cover;
+}
+
+#box2 {
+    color:black;
+    text-align: center;
+    font-size: 10px;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    background-color: aliceblue;
+    background-image: url("drawing\ room.jpeg");
+    background-size: cover;
+}
+
+#box3 {
+    color: black;
+    text-align: center;
+    font-size: 10px;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    background-color: aliceblue;
+    background-image: url("kitchenlp.jpeg");
+    background-size: cover;
+}
+
+p:hover {
+    color: black;
+}
+
+.image-text {
+    margin-top: 10px;
+    font-size: 16px; 
+    padding-top: 260px;
+    color: white;
+}
+
+/*Contact details*/
+
+.contact {
+    background-color:#eab676;
+    height: 180px;
+    padding-top: 70px;
+    padding-top: 70px; 
+    
+}
+
+#add {
+    font-size: 40px;
+    position: relative;
+    text-align: center; 
+}
+
+.addimg {
+position:relative;
+bottom: 60px;
+left: 450px;
+height: 30px;
+width: 30px;
+margin-left: 4px;
+}
+
+h6 {
+    margin-top: -0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*footer*/
+
+.footer {
+    height: 30px;
+    background-color: black;
+    margin: 0;
+    padding-top: 5px;
+    width: 100%;
+    display: block;
+    position: relative; 
+}
+
+#copyright {
+    color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+}
